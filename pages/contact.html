@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="../acceuil.html">Home</a>
+            <a href="../pages/Parcours académique.html">Parcours académique</a>
+            <a href="../pages/competence.html">Compétence informatiques</a>
+            <a href="../pages/matiere.html">Matières</a>
+            <a href="../pages/passion.html">Passions</a>
+            <a href="../pages/quizz.html">Quizz</a>
+            <a href="../pages/manifestation scientifique.html">Manifestation</a>
+            <a href="#">Contact</a>
+            <a href="../pages/temoignage.html">Témoignage</a>
+        </nav>
+    </header>
+
+    <section class="contactc">
+        <h1>Contactez-moi</h1>
+        <p>Remplissez le formulaire ci-dessous pour m’envoyer un message :</p>
+        <p>Ou envoyez un email directement à : <a href="mailto:ayoub10048@gmail.com">ayoub10048@gmail.com</a></p>
+
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Votre adresse email" required>
+
+            <label for="subject">Sujet :</label>
+            <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
+
+    <footer class="footerc">
+        <p>Vous pouvez aussi me contacter par telephone :+216 25 017 339 </p>
+    </footer>
+</body>
+
+</html>
