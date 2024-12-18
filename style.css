@@ -548,14 +548,14 @@ li {
   font-size: 0.9rem;
 }
 /* media query */
-/*@media (max-width: 766px) {
+@media (max-width: 766px) {
   body {
       font-size: 14px;
       padding: 10px;
       background-color: white;
       color: black;
   }
-}
+
   .header{
     background-color: white;
   }
@@ -627,4 +627,5 @@ li {
     width: 100%;
     padding: 15px;
     font-size: 18px;
-}*/
+}
+}
