@@ -548,7 +548,7 @@ li {
   font-size: 0.9rem;
 }
 /* media query */
-@media (max-width: 768px) {
+/*@media (max-width: 766px) {
   body {
       font-size: 14px;
       padding: 10px;
@@ -627,7 +627,4 @@ li {
     width: 100%;
     padding: 15px;
     font-size: 18px;
-}
-.home-sci .contact{
-  background-color: white;
-}
+}*/
