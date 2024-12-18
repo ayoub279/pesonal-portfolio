@@ -555,6 +555,7 @@ li {
       background-color: white;
       color: black;
   }
+}
   .header{
     background-color: white;
   }
@@ -627,4 +628,6 @@ li {
     padding: 15px;
     font-size: 18px;
 }
+.home-sci .contact{
+  background-color: white;
 }
